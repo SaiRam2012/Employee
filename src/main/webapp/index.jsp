@@ -4,6 +4,7 @@
 </head>
 <body>
 <p> This is Index</p>
-<a href="helloServlets"> Hello</a>
+<a href="helloServlets?name=radhika"> Hello</a>
+<a href="DatabaseAccess">This is my dataBase</a>
 </body>
 </html>

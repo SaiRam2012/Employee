@@ -18,6 +18,15 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
    		<url-pattern>/helloServlets</url-pattern>
    		
    </servlet-mapping>
+    <servlet>
+     <servlet-name>DatabaseAccess</servlet-name>
+     <servlet-class>com.radhi.DataBaseAccess</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+     <servlet-name>DatabaseAccess</servlet-name>
+     <url-pattern>/DatabaseAccess</url-pattern>
+ </servlet-mapping>
    <welcome-file-list>
    		<welcome-file>index.html</welcome-file>
    		<welcome-file>index.jsp</welcome-file>
